@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-04T14:30:04 IST" name="Default suite" finished-at="2024-09-04T14:30:38 IST" duration-ms="33980">
+    <groups>
+    </groups>
+    <test started-at="2024-09-04T14:30:04 IST" name="Default test" finished-at="2024-09-04T14:30:38 IST" duration-ms="33980">
+      <class name="testcases.CreateIndividuals">
+        <test-method is-config="true" signature="addnames()[pri:0, instance:testcases.CreateIndividuals@302c971f]" started-at="2024-09-04T14:30:04 IST" name="addnames" finished-at="2024-09-04T14:30:04 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addnames -->
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:testcases.CreateIndividuals@302c971f]" started-at="2024-09-04T14:30:05 IST" name="preCondition" finished-at="2024-09-04T14:30:12 IST" duration-ms="7050" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="verifynames(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.CreateIndividuals@302c971f]" started-at="2024-09-04T14:30:12 IST" name="verifynames" data-provider="enterData" finished-at="2024-09-04T14:30:37 IST" duration-ms="24975" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vinothkumar@testleaf.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SeleniumChallenge@24]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[nivetha]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifynames -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:testcases.CreateIndividuals@302c971f]" started-at="2024-09-04T14:30:37 IST" name="postCondition" finished-at="2024-09-04T14:30:38 IST" duration-ms="537" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- testcases.CreateIndividuals -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
